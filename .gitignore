@@ -64,3 +64,14 @@ data/index/*
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# Firebase service account keys
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!next.config.ts
+!postcss.config.mjs
+!eslint.config.mjs
+backend/*.json
+!backend/package.json
